@@ -1,0 +1,39 @@
+#model{
+    text-align: left;
+    margin-left: 77px;
+}
+
+#model p{
+    font-size: 20px;
+}
+
+#pojedinosti img{
+    width: 17vw;
+    height: 60vh;
+    padding-right: 5px;
+}
+
+#pojedinosti img:hover{
+    transform: scale(1.1);
+    transition: 0.7s ease-in-out;
+}
+
+#pojedinosti h3, #pojedinosti p, #drugaSekcija h3, #drugaSekcija p{
+    text-align: left;
+    margin-left: 77px;
+    margin-right: 77px;
+}
+    
+#skica{
+    width: 585px;
+    height: 329px;
+}
+
+table, tr, th, td{
+    padding: 5px;
+    text-align: right;
+}
+table{
+    margin: 0 auto;
+}
+

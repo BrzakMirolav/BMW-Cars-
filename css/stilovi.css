@@ -1,0 +1,695 @@
+body{
+    color: black;
+    background-color: white;
+}
+
+html, body {
+    overflow-x: hidden;
+  }
+
+ul.nav.nav-pills a.nav-link.active{
+    background-color: black;
+    color: white;
+}
+
+
+ul.nav.nav-pills{
+    background-color: white;
+    box-shadow: 10px 10px 5px grey;
+    padding: 15px;
+}
+
+ul.nav.nav-pills a.nav-link{
+    color: black;
+}
+
+ul.nav.nav-pills a.nav-link:hover{
+    animation-name: navigacija;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    background-color: grey;
+}
+
+@keyframes navigacija {
+    from {background-color: white;}
+    to {background-color: grey;}
+}
+
+li.nav-item.dropdown.show a.nav-link.dropdown-toggle{
+    background-color: black;
+}
+
+input{
+    font-size: 20px;
+    opacity: 0.7;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    width: 40%;
+    height: 40px;
+    box-shadow: 3px 3px 5px grey;
+}
+
+#dodajModel{
+    opacity: 0.9;
+    background-color: rgb(0, 17, 248);
+    color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    width: 40%;
+    height: 40px;
+    box-shadow: 3px 3px 5px grey;
+}
+
+.fajl{
+    font-size: 20px;
+    opacity: 0.7;
+    color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    width: 40%;
+    height: 30px;
+    box-shadow: 3px 3px 5px grey;
+}
+
+select{
+    opacity: 0.7;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    width: 40%;
+    height: 40px;
+    box-shadow: 3px 3px 5px grey;
+}
+
+.sub{
+    width: 30%;
+    background-color: rgb(50,50,50);
+    color: white;
+}
+
+.uslovi{
+    box-shadow: none;
+    width: 17px;
+    height: 15px;
+}
+
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: black;
+    opacity: 1; /* Firefox */
+  }
+
+.reg{ 
+    margin: auto auto;  
+    text-align: center;
+    width: 50%;
+    height: 80%;
+    border: 2px solid grey;
+    box-shadow: 10px 10px 5px grey;
+}
+
+img {
+    object-fit: cover;
+    height: 92.5vh;
+} 
+
+div.container-fluid {
+      margin: 0px;
+      padding: 0px;
+}
+
+img.logo {
+    margin-top: 20px;
+    height: 5vh;
+    position: absolute;
+    z-index: 100;
+ 
+}
+
+footer{
+    width: 100%;
+    
+    bottom:0;
+    left:0;
+    right:0;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    background-color: black;
+}
+
+footer ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+div.col-sm-3 ul{
+    list-style-type: none;
+    color: white;
+}
+
+div.col-sm-3 ul li a{
+    color: grey;
+    text-decoration: none;
+}
+
+div.col-sm-3 ul li a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+div.col-sm-3 ul li{
+
+padding: 5px;
+text-align: left;
+display: block;
+}
+
+.h_line{
+    width:100%; height:0.5px; background: grey;
+}
+
+/* Ovo je banner */
+.banner {
+    background-image: url(../slike/testbanner2.png);
+    background-repeat: no-repeat;
+    background-size: 100vw 80vh;
+}
+
+
+#videoPocetna {
+    height: 92vh;
+    object-fit: cover;
+}
+
+.slikeModela{
+    width: 100%;
+    height: auto;
+ 
+}
+
+.modeli{
+    text-align: center;
+}
+
+#videoModeli{
+    width: 80%;
+    height: 85vh;
+    object-fit: cover;
+}
+
+@keyframes zoom{
+    from {transform: scale(1.0);}
+    to {transform: scale(1.05);}
+}
+
+.slikeModela:hover{
+    animation-name: zoom;
+    animation-duration: .5s;
+    animation-timing-function: ease-in-out;
+    transform: scale(1.05);
+}
+
+.pojedinosti:hover{
+    animation-name: zoom;
+    animation-duration: .5s;
+    animation-timing-function: ease-in-out;
+    transform: scale(1.05);
+}
+
+
+.kontakt form.input{
+    border-radius: 0;
+}
+
+
+.toggle{
+    width: 100%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    color: black;
+    font-size: 30px;
+    display: none;
+}
+
+#card{
+    width: 10%;
+    height: 10%;
+}
+
+#mesecIsteka, #godinaIsteka{
+    width: 7%;
+}
+
+input:out-of-range {
+    border: 2px solid red;
+  }
+
+  #brkartice1, #brkartice2, #brkartice3, #brkartice4 {
+      width: 10%;
+  }
+
+  #bkod{
+      width: 10%;
+  }
+
+#slikaModela img{
+    width: 100%;
+    height: 100%;
+}
+
+.slajder{
+    width: 1158px;
+    height: 533px;
+    margin: 0 auto;
+}
+
+.slajder img{
+    width: 100%;
+    height: 100%;
+}
+
+.gridpadding {
+    padding: 2px ;
+ }
+
+.grid1{
+    height: 100%;
+    padding: 0px;
+}
+
+.grid1 video{
+    width: 100%;
+    height: 99%;
+   
+}
+.grid1 img{
+    width: 100%;
+    height: 99%;
+}
+
+.grid2 video{
+    width: 100%;
+    height: 101%;
+}
+
+.grid2 img{
+    width: 100%;
+    height: 50%;
+}
+
+.grid3 img{
+     width: 100%;
+     height: 99%;
+}
+.grid3 video{
+    width: 100%;
+    height: 100%;
+}
+
+ 
+.grid4 img{
+    width: 100%;
+    height: 99%;
+}
+.grid4 #4video{
+    width: 100%;
+    height: 100%;
+}
+
+.grid5 img{
+    width: 100%;
+    height: 100%;
+}
+
+.grid6 img{
+    width: 100%;
+    height: 98%;
+}
+
+.story{
+    background-color: rgb(49, 49, 49);
+    width: 100%;
+    height: 20%;
+    display: inline-block;
+    padding: 3px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.story a{
+    text-decoration: none;
+    color: white;
+}
+
+.story img{
+  border-radius: 50%;
+  border: 5px solid white;
+  width: 13%;
+  height: 100%;
+  margin: 1%;
+  padding: 2px;
+  
+}
+
+.gridabs{
+    position: absolute; 
+    bottom: 20%; 
+    left: 10%; 
+    color: white;
+}
+
+.mgridabs{
+    position: absolute; 
+    bottom: 5%; 
+    left: 5%; 
+    color: white;
+
+}
+
+
+.gmgridabs{
+    position: absolute; 
+    bottom: 55%; 
+    left: 5%; 
+    color: white;
+
+}
+
+
+
+
+.dugmepoc{
+    border: 2px solid white; 
+    color: white; 
+   
+}
+
+
+
+@media (max-width: 480px){
+    img {
+        object-fit: cover;
+        height: 40vh;
+    } 
+    img#slikaJedinstvenogModela{
+        object-fit: cover;
+        width: 100%;
+        height: 20%;
+    }
+
+    img.pojedinosti{
+        object-fit: cover;
+        width: 100%;
+        height: 70vh;
+    }
+
+    img#skica{
+        object-fit: cover;
+        width: 100%;
+        height: 20vh;
+    }
+
+    .model{
+        width:300%;
+    }
+    
+
+    
+    img#sestaSlikaUTabeli.pojedinosti{
+        display:none;
+    }
+
+    #brkartice1, #brkartice2, #brkartice3, #brkartice4 {
+        width: 20%;
+    }
+    #mesecIsteka, #godinaIsteka{
+        width: 20%;
+    }
+
+    #bkod{
+        width: 15%;
+    }
+
+    #card{
+        width: 20%;
+        height: 20%;
+    }
+
+ 
+}
+
+
+    @media (max-width: 768px){
+        .toggle{
+            display: block;
+        }
+        #uhm{
+            display: none;
+            width: 100%;
+        }
+        #uhm li{
+            display: block;
+        }
+    
+        #uhm.active{
+            display: block;
+        }
+
+        .model{
+        width:200%;
+    }
+    
+        .logo{
+            display: none;
+        }
+    
+    
+        .reg{ 
+            margin: auto auto;  
+            text-align: center;
+            width: 90%;
+            height: 80%;
+            border: 2px solid grey;
+            box-shadow: 10px 10px 5px grey;
+        }
+
+
+        .rez{ 
+            margin: auto auto;  
+            text-align: center;
+            width: 90%;
+            height: 80%;
+            border: 2px solid grey;
+            box-shadow: 10px 10px 5px grey;
+        }
+    
+        input{
+            opacity: 0.7;
+            color: black;
+            border: 2px solid black;
+            border-radius: 10px;
+            text-align: center;
+            width: 80%;
+            height: 40px;
+            box-shadow: 3px 3px 5px grey;
+        }
+    
+        .sub{
+            width: 30%;
+            background-color: rgb(50,50,50);
+            color: white;
+        }
+    
+        .banner {
+            background-image: url(../slike/testbanner2.png);
+            background-repeat: no-repeat;
+            background-size: 0vw 0vh;
+        }
+        
+        
+        
+        img#slikaJedinstvenogModela{
+            object-fit: cover;
+            width: 100%;
+            height: 20%;
+        }
+    
+        img.pojedinosti{
+            object-fit: cover;
+            width: 100%;
+            height: 100vh;
+        }
+    
+        img#skica{
+            object-fit: cover;
+            width: 100%;
+            height: 20vh;
+    
+        }
+    
+        img#sestaSlikaUTabeli.pojedinosti{
+            display:none;
+        }
+        
+        #card{
+            width: 20%;
+            height: 20%;
+    
+    
+    }
+}
+
+  
+
+@media (max-width: 1024px){
+
+    .logo{
+        display: none;
+    }
+
+    .banner{
+        background-image: url(../slike/testbanner2.png);
+        background-repeat: no-repeat;
+        background-size: 100vw 50vh;
+    }
+
+    .model{
+        width:200%;
+    }
+
+    img {
+        object-fit: cover;
+        height: 40vh;
+    }
+
+    .rez{ 
+            margin: auto auto;  
+            text-align: center;
+            width: 100%;
+            height: 80%;
+            border: 2px solid grey;
+            box-shadow: 10px 10px 5px grey;
+        }
+    
+    
+    img#slikaJedinstvenogModela{
+        object-fit: cover;
+        width: 100%;
+        height: 20%;
+    }
+
+    img.pojedinosti{
+        object-fit: cover;
+        width: 100%;
+        height: 70vh;
+    }
+
+    img#skica{
+        object-fit: cover;
+        width: 100%;
+        height: 20vh;
+
+    }
+    img#sestaSlikaUTabeli.pojedinosti{
+        display:none;
+    }
+
+    img#card{
+        width: 30%;
+        height: 30%;
+   
+}
+
+
+#mesecIsteka, #godinaIsteka{
+    width: 15%;
+}
+
+
+}
+
+@media (max-width: 1300px){
+
+    img#slikaJedinstvenogModela{
+        object-fit: cover;
+        width: 100%;
+        height: 50vh;
+    }
+
+    img#card{
+        width: 20%;
+        height: 20%;
+     }
+
+ .bodyIzmena{
+    color:white; 
+    background-image: url("wallpaper.jpg"); 
+    background-color: black;
+    background-repeat: no-repeat; 
+    background-size: 100%; 
+    background-attachment: fixed;
+
+    } 
+
+
+}
+
+.reg{ 
+            margin: auto auto;  
+            text-align: center;
+            width: 90%;
+            height: 80%;
+            border: 2px solid grey;
+            box-shadow: 10px 10px 5px grey;
+        }
+
+
+
+
+@media (max-width: 2000px){
+
+    img#slikaJedinstvenogModela{
+        object-fit: cover;
+        width: 100%;
+        height: 60%;
+    }
+
+    img#card{
+        width: 20%;
+        height: 20%;
+   
+}
+
+.bodyIzmena{
+    color:white; 
+    background-image: url("wallpaper.jpg"); 
+    background-color: black;
+    background-repeat: no-repeat; 
+    background-size: 100%; 
+    background-attachment: fixed;
+
+    } 
+
+
+}
+
+
+
+
+
+
+
+
+

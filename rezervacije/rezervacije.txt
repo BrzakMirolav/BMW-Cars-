@@ -1,0 +1,30 @@
+Timestamp: 21-02-2020 13:37:35
+Ime: miki Prezime: miki Telefon: 22222 Email: miki@gmail
+Podaci o kartici: 
+Ime: miki
+Broj: 2222-2222-2121-2123
+
+Timestamp: 21-02-2020 16:14:18
+Ime: Miki Prezime: Miki Telefon: 065 5555 Email: miki@gmil.com
+Podaci o kartici: 
+Ime: Miki
+Broj: 1234-1234-1234-1234
+
+Timestamp: 19-03-2021 18:42:37
+Ime: Marina Prezime: Brzak Telefon: 0603542518 Email: maba965@gmail.com
+Podaci o kartici: 
+Ime: 8373766399282
+Broj: 6565-5646-6464-5626
+
+Timestamp: 24-03-2021 20:55:22
+Ime: Miroslav Prezime: Brzak Telefon: 046487076 Email: brzak@gmail.com
+Podaci o kartici: 
+Ime: Miroslav
+Broj: 5046-5784-8548-1372
+
+Timestamp: 24-03-2021 21:04:46
+Ime: Ivana Prezime: Kostic Telefon: 051235212 Email: ica@gmail.com
+Podaci o kartici: 
+Ime: Ivana
+Broj: 1231-1235-5212-5532
+
